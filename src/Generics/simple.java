@@ -26,6 +26,8 @@ public class simple {
 
     /**
      * more generic types
+     * arguments are any type array and function
+     * return list of type G
      */
     public <T,G> List<G> fromArrayToListSecond(T[] a, Function<T,G>mapperFunction){
         return Arrays.stream(a)
